@@ -15,7 +15,6 @@ public class Example2 {
 		daysInMonth[10] = 30;
 		daysInMonth[11] = 31;
 		
-		System.out.println("October has " + daysInMonth[10] + " days.");
-		Array.
+		System.out.println("October has " + daysInMonth[10] + " days.");		
 	}
 }
