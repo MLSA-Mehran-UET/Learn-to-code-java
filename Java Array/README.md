@@ -19,4 +19,5 @@ Similarly, to create an array of integers, you could specify:
 **Useful resources**
 
 [w3schools - arrays](https://www.w3schools.com/java/java_arrays.asp)
+
 [Oracle - Java arrays](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html)
