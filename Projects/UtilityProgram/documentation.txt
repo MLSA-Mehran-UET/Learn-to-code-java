@@ -1,0 +1,20 @@
+//Documentation
+
+This program is client and server based(NETWORKING)
+
+first compile all the files by writing this command in CMD
+javac *.java
+
+Compilation is done and now First Run Server
+
+Command for running Server is
+java Server.java
+
+
+after that open other CMD and Run Client
+UtilityProgram is CLIENT so running UtilityProgram write this command in CMD
+java UtilityProgram.java
+
+and NOW You Will See GUI
+so write any IP such as 127.0.0.1 ,choose any option(notepad,calc,mspaint) from list and then click on Action button
+this will open your chosen utility in other computer or your local machine thats why this is called utility program 
