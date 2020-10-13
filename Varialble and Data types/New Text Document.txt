@@ -1,0 +1,35 @@
+class TestMain{
+
+public static void main(String arg[]){
+byte myNum = 100;
+System.out.println("Byte value is:"+myNum);
+
+short myNum = 5000;
+System.out.println("Short value is:"+myNum);
+
+int myNum = 5;               // Integer (whole number)
+System.out.println("Integer value is:"+myNum);
+
+long myNum = 15000000000L;
+System.out.println("Long value is:"+myNum);
+
+float myFloatNum = 5.99f;    // Floating point number
+System.out.println("Float value is :"+myFloatNum);
+
+double myNum = 19.99d;
+System.out.println("Double value is:"+myNum);
+
+char myLetter = 'D';         // Character
+System.out.println("Character is:"+myLetter);
+
+boolean myBool = true;       // Boolean
+System.out.println("Boolean value is"+myBool);
+
+String myText = "Hello";     // String
+System.out.println("String is "+myText);
+
+
+
+
+}
+}
