@@ -48,7 +48,7 @@ Here, speed is a variable, and the data type of the variable is int. The int dat
 
 In simple terms, a variable's data type determines the values a variable can store. There are 8 data types predefined in Java programming language, known as primitive data types.
 
-- boolean
+## boolean
 
 The boolean data type has two possible values, either true or false.
 Default value: false.
@@ -64,7 +64,7 @@ class BooleanExample {
 }
 ```
 
-- byte
+## byte
 
 The byte data type can have values from -128 to 127 (8-bit signed two's complement integer).
 It's used instead of int or other integer data types to save memory if it's certain that the value of a variable will be within [-128, 127].
@@ -81,7 +81,7 @@ class ByteExample {
 }
 ```
 
-- short
+## short
 
 The short data type can have values from -32768 to 32767 (16-bit signed two's complement integer).
 It's used instead of other integer data types to save memory if it's certain that the value of the variable will be within [-32768, 32767].
@@ -98,7 +98,7 @@ class ShortExample {
 }
 ```
 
-- int
+## int
 
 The int data type can have values from -231 to 231-1 (32-bit signed two's complement integer).
 If you are using Java 8 or later, you can use unsigned 32-bit integer with a minimum value of 0 and a maximum value of 232-1. If you are interested in learning more about it, visit: How to use the unsigned integer in java 8?
@@ -114,7 +114,7 @@ class IntExample {
 }
 ```
 
-- long
+## long
 
 The long data type can have values from -263 to 263-1 (64-bit signed two's complement integer).
 If you are using Java 8 or later, you can use unsigned 64-bit integer with a minimum value of 0 and a maximum value of 264-1.
@@ -129,7 +129,7 @@ class LongExample {
     }
 }```
 
-- double
+## double
 
 The double data type is a double-precision 64-bit floating-point.
 It should never be used for precise values such as currency.
@@ -145,7 +145,7 @@ class DoubleExample {
 }
 ```
 
-- float
+## float
 
 The float data type is a single-precision 32-bit floating-point. Learn more about single-precision and double-precision floating-point if you are interested.
 It should never be used for precise values such as currency.
@@ -161,7 +161,7 @@ class FloatExample {
 }
 ```
 
-- char
+## char
 
 It's a 16-bit Unicode character.
 The minimum value of the char data type is '\u0000' (0). The maximum value of the char data type is '\uffff'.
