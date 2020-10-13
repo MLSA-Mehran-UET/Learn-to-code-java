@@ -12,7 +12,8 @@ To create a class, use the keyword ```class```:
 
 Example:
 
-```class Lamp {
+```java
+class Lamp {
     boolean isOn;
 
     void turnOn() {
@@ -40,6 +41,7 @@ class Main {
         // call methods turnOn() and turnOff()
         l1.turnOn();
         l2.turnOff();
-    }```
+    }
+ ```
 
 In above example a class named Lamp is created, having one attribute and two behaviors.
