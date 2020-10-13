@@ -2,10 +2,12 @@
 
 In Java, a function or a method must be defined before it is used anywhere in the program. The general form of a function/method is given below:
 
-```[access-specifier] [modifier] return-type function-name (parameter list)
+```java
+[access-specifier] [modifier] return-type function-name (parameter list)
 {
        body of the function/method;
-}```
+}
+```
 
 # Access specifier
 
