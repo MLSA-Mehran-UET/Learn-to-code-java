@@ -5,7 +5,7 @@ The class which inherits is known as Sub class (derived class or child class) an
 
 # Types of Inheritence:
 
-**Single Inheritance :
+**Single Inheritance :**
 
 Single inheritance can be defined as a derived class to inherit the basic methods (data members and variables) and behavior from a superclass. It's a basic is-a relationship concept exists here. Basically, java only uses a single inheritance as a subclass cannot extend more superclass
 
