@@ -6,7 +6,7 @@ Recursion is the technique of making a function call itself. This technique prov
 
 **Use recursion to add all of the numbers up to 10.**
 
-```
+```java
 public class MyClass {
   public static void main(String[] args) {
     int result = sum(10);
