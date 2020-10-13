@@ -21,7 +21,7 @@ for(initialization expression(s) ; test-expression ; update-expression(s))
 }
 ```
 
-##The while Loop
+## The while Loop
 
 The next loop available in Java is the while loop. The while loop is an entry-controlled loop.
 
@@ -35,7 +35,7 @@ while(test-expression){
 
 In a while loop, the loop-body may contain a single, compound or an empty statement. The loop repeats while the test expression or condition evaluates to true. When the expression becomes false, the program control passes to the line just after the end of the loop-body code.
 
-##The do-while Loop
+## The do-while Loop
 
 Unlike the for and while loops, the do-while loop is an exit-controlled loop which means a do-while loop evaluates its test-expression or test-condition at the bottom of the loop after executing the statements in the loop-body. This means the do-while loop always executes at least once.
 
