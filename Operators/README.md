@@ -12,7 +12,8 @@ The Java unary operators require only one operand. Unary operators are used to p
 - negating an expression
 - inverting the value of a boolean
 
-```class OperatorExample{  
+```java
+class OperatorExample{  
 	public static void main(String args[]){  
 		int x=10;  
 		System.out.println(x++);//10 (11)  
@@ -20,13 +21,15 @@ The Java unary operators require only one operand. Unary operators are used to p
 		System.out.println(x--);//12 (11)  
 		System.out.println(--x);//10  
 	}
-}  ```
+}  
+```
 
 # Java Arithmetic Operators
 
 Java arithmatic operators are used to perform addition, subtraction, multiplication, and division. They act as basic mathematical operations.
 
-```class OperatorExample {  
+```java
+class OperatorExample {  
 public static void main(String args[]) {  
 int a=10;  
 int b=5;  
@@ -36,18 +39,21 @@ System.out.println(a*b);//50
 System.out.println(a/b);//2  
 System.out.println(a%b);//0  
 }
-}  ```
+}  
+```
 
 # Java Ternary Operator
 
 Java Ternary operator is used as one liner replacement for if-then-else statement and used a lot in Java programming. it is the only conditional operator which takes three operands.
 
-```class OperatorExample {  
+```java
+class OperatorExample {  
 public static void main(String args[]) {  
 int a=2;  
 int b=5;  
 int min=(a<b)?a:b;  
 System.out.println(min);  
 }
-}  ```
+}  
+```
 
