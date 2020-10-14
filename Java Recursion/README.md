@@ -3,7 +3,7 @@
 
 In Java, a method which calls itself is known as a **recursive** **method**. The process of **recursion** provides a technique to break complicated problems down into simple problems which are easier to solve.
 
-For example, here we are using recursion to calculate the factorial of value *n*:
+For example, here we are using recursion to calculate the factorial (1 x 2 x 3 .. x *n*)of value *n*:
 
 	public static long calculateFactorial(int n) {
 		if (n > 0) {
