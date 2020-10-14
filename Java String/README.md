@@ -1,13 +1,24 @@
 # Java String
 
-```Strings``` are used for storing text.
+**Strings** are widely used in Java programming and are a sequence of characters, used for storing text. A **String** variable contains a collection of characters surrounded by double quotes:
 
-A ```String``` variable contains a collection of characters surrounded by double quotes:
+    String greeting = "Hello, World!";
 
-**Example:**
+A **String** in Java is an object, containing methods which can perform certain operations on strings. For example, the length of a string can be determined with the 'length()' method:
 
-Create a variable of type String and assign it a value:
+    int stringLength = greeting.length();
 
-```String greeting = "Hello";```
+There are a variety of other String methods available, for example  'toUpperCase()'  and  'toLowerCase()' which will return the string converted to uppercase or lowercase characters respectively.
 
-A String in Java is actually an object, which contain methods that can perform certain operations on strings. For example, the length of a string can be found with the ```length()``` method.
+Additionally, the  '+'  operator can be used between strings to combine them ( **concatenation**):
+
+    String name = "Bob"
+    String greeting = "Hello " + name; 
+    // The greeting variable will contain Hello Bob
+
+
+**Useful resources**
+
+ [w3schools - Strings](https://www.w3schools.com/java/java_strings.asp) 
+ 
+ [Oracle Java -  Strings](https://docs.oracle.com/javase/tutorial/java/data/strings.html)
