@@ -1,13 +1,25 @@
+=======
 # Java String
 
-__String__ is an important class in java used to store a sequence of characters.
+**Strings** are widely used in Java programming and are a sequence of characters, used for storing text. A **String** variable contains a collection of characters surrounded by double quotes:
 
-We can define a string object using the following syntax in java :
+    String greeting = "Hello, World!";
 
-``
-String stringObject = "hello";
-``
+A **String** in Java is an object, containing methods which can perform certain operations on strings. For example, the length of a string can be determined with the 'length()' method:
 
-Here `stringObject` is the variable name which stores `hello`.  
+    int stringLength = greeting.length();
 
-We have a number of operations supported for Strings like toLower(), subString(), concat(), length(), etc.
+There are a variety of other String methods available, for example  'toUpperCase()'  and  'toLowerCase()' which will return the string converted to uppercase or lowercase characters respectively.
+
+Additionally, the  '+'  operator can be used between strings to combine them ( **concatenation**):
+
+    String name = "Bob"
+    String greeting = "Hello " + name; 
+    // The greeting variable will contain Hello Bob
+
+
+**Useful resources**
+
+ [w3schools - Strings](https://www.w3schools.com/java/java_strings.asp) 
+ 
+ [Oracle Java -  Strings](https://docs.oracle.com/javase/tutorial/java/data/strings.html)
