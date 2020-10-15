@@ -163,6 +163,7 @@ class FloatExample {
 
 ## char
 
+
 It's a 16-bit Unicode character.
 The minimum value of the char data type is '\u0000' (0). The maximum value of the char data type is '\uffff'.
 Default value: '\u0000'
