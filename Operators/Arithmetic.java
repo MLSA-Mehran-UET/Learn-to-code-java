@@ -24,14 +24,27 @@ this program we will deal with the Arithmetic Operators*/{
     //Division " / "
     float foodPlates = 200;
     float people = 150;
-    float platePerEach = ( foodPlates / people ); //This will equally divide the plates to each person.
+    float platePerEach = (foodPlates / people); //This will equally divide the plates to each person.
     System.out.println(
       "The food plates which each person will receive will  = " + platePerEach
     );
     //Modulus " % "
     int toys = 10;
     int kids = 3;
-    int remainingToys = ( toys % kids );
+    int remainingToys = (toys % kids);
     System.out.println("The remaining Toys will be = " + remainingToys);
+    //Increment " ++ "
+    int beforeIncrement = 2;
+    beforeIncrement++; //This will add 1 to the variable "beforeIncrement".
+    System.out.println("After Increment = " + beforeIncrement);
+    //Decrement " -- "
+    int beforeDecrement = 2;
+    beforeDecrement--; //This will subtract 1 from the variable "beforeDecrement".
+    System.out.println("After Decrement = " + beforeDecrement);
+    //There are two types of both Increment & Decrement which are Prefix and Postfix
+    //Prefix
+    ++beforeIncrement; //This will add 1 during the declaring Statement.
+    //Postfix
+    --beforeDecrement; //This will subtract 1 during the declaring Statement.
   }
 }
