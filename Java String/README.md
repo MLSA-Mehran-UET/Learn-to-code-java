@@ -1,4 +1,3 @@
-
 # Java String
 
 **Strings** are widely used in Java programming and are a sequence of characters, used for storing text. A **String** variable contains a collection of characters surrounded by double quotes:
