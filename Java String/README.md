@@ -1,3 +1,4 @@
+
 # Java String
 
 **Strings** are widely used in Java programming and are a sequence of characters, used for storing text. A **String** variable contains a collection of characters surrounded by double quotes:
@@ -22,4 +23,3 @@ Additionally, the  '+'  operator can be used between strings to combine them ( *
  [w3schools - Strings](https://www.w3schools.com/java/java_strings.asp) 
  
  [Oracle Java -  Strings](https://docs.oracle.com/javase/tutorial/java/data/strings.html)
-
