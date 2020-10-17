@@ -1,3 +1,4 @@
+
 # Java Recursion
 
 
@@ -34,5 +35,3 @@ As an alternative, most recursive methods can be rewritten using **iteration**:
 **Useful links**
 
 [w3 schools - recursion](https://www.w3schools.com/java/java_recursion.asp)
-
-[baeldung - recursion](https://www.baeldung.com/java-recursion)
