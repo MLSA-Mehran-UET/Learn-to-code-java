@@ -5,7 +5,7 @@ class DoWhileLoop{
         do{
             System.out.println(i);
             i++;
-        } while(i<=10);
+        } while(i<11);
 
         // Find Even Numbers between 0 to 20
         int j=0;
