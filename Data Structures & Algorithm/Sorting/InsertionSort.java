@@ -1,6 +1,6 @@
- class InsertionSort { 
+public class InsertionSort { 
 	/*Function to sort array using insertion sort*/
-	void sort(int arr[]) 
+	public void sort(int arr[]) 
 	{ 
 		int n = arr.length; 
 		for (int i = 1; i < n; ++i) { 
@@ -19,7 +19,7 @@
 	} 
 
 	/* A utility function to print array of size n*/
-	static void printArray(int arr[]) 
+	public static void printArray(int arr[]) 
 	{ 
 		int n = arr.length; 
 		for (int i = 0; i < n; ++i) 
