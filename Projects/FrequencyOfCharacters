@@ -10,7 +10,7 @@ public class FrequencyOfCharacters {
 
         int max = 26;
         Scanner in = new Scanner(System.in);
-        System.out.println("Enter the a string to find the frequencies of its elements:");
+        System.out.println("Enter a string to find the frequencies of its characters:");
 
         // Replaces all the substrings except(^) from characters a-z with the space character and converts them to lower case
         String user_str = in.nextLine().toLowerCase().replaceAll("[^a-z]"," ");
