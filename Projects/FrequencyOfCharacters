@@ -1,0 +1,39 @@
+/*
+    Given a string, this program prints the characters and their frequencies in alphabetical order
+ */
+
+import java.util.Scanner;
+
+public class FrequencyOfCharacters {
+
+    public static void main(String[] args) {
+
+        int max = 26;
+        Scanner in = new Scanner(System.in);
+        System.out.println("Enter the a string to find the frequencies of its elements:");
+
+        // Replaces all the substrings except(^) from characters a-z with the space character and converts them to lower case
+        String user_str = in.nextLine().toLowerCase().replaceAll("[^a-z]"," ");
+
+        int[] freq = new int[max];
+        char[] string = user_str.toCharArray();
+
+        int i,j;
+        for( i=0; i<user_str.length(); i++){
+            if(string[i] != ' ') {
+                freq[user_str.charAt(i) - 'a']++; // use the ascii code so that a-z have values 0 - 25
+            }
+        }
+
+        // Print the frequencies of the characters in alphabetical order
+        for(i = 0; i<max; i++) {
+            if( freq[i]!=0) {
+                System.out.print((char)(i+'a') + " - " +freq[i] + " ");
+                for (j = 0; j < freq[i]; j++) {
+                    System.out.print("*");
+                }
+                System.out.println();
+            }
+        }
+    }
+}
