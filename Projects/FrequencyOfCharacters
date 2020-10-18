@@ -26,6 +26,7 @@ public class FrequencyOfCharacters {
         }
 
         // Print the frequencies of the characters in alphabetical order
+        System.out.println("Characters and their corresponding frequencies:");
         for(i = 0; i<max; i++) {
             if( freq[i]!=0) {
                 System.out.print((char)(i+'a') + " - " +freq[i] + " ");
