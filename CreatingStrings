@@ -1,0 +1,35 @@
+/*
+    this files helps you understand string and shows different ways of creating string 
+    String in java is simply an object that refers to the array pf characters
+    
+*/
+package strings;
+
+/**
+ *
+ * @author Ahsan Qadeer
+ */
+public class CreatingString {
+
+    // ch and ahsan are same
+    char ch[]={'a','h','s','a','n'};
+    String name="ahsan";// this is called string literal
+    //
+    String name2="ahsan";//this does'nt create a new literal
+    // name and name2 are refering to same array of characters in the stringConstantPool within memory
+    
+    String name3="ahsanqadeer";//new literal refering to a new string in string contant pool which resides in heap memory
+    
+    //other ways of creating strings
+    String s=new String("ahsan");
+    // JVM will create a new string object in normal (non-pool) heap memory, and the literal "ahsan" will be placed in the string constant pool. 
+    
+    String s2=new String("ahsan");
+    // s1 and s2 don't have same reference;
+    public static void main(String[] args) {
+        // TODO code application logic here
+        CreatingString ct=new CreatingString();
+        System.out.println(ct.name2==ct.name);
+    }
+    
+}
