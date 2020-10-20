@@ -1,0 +1,16 @@
+Factorial: The product of an integer and all the integers below it; e.g. factorial four ( 4! ) is equal to 24.
+
+public class factorial {
+
+    public static void main(String[] args) {
+
+    	//We will find the factorial of this number
+        int number = 5;
+        long fact = 1;
+        for(int i = 1; i <= number; i++)
+        {
+            fact = fact * i;
+        }
+        System.out.println("Factorial of "+number+" is: "+fact);
+    }
+}
