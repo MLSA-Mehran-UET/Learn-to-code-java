@@ -177,3 +177,31 @@ class CharExample {
     }
 }
 ```
+
+There are different datatypes some them are
+Byte: an 8-bit signed two's complement integer
+Short: a 16-bit signed two's complement integer.
+Int: a 32-bit signed two's complement integer.
+Long: a a 64-bit two's complement integer.
+Float:  numbers that have fractional parts that uses 4byte
+
+#the following code has different datatypes implementation.
+
+public class MyClass {
+  public static void main(String[] args) {
+    byte myNum = 100;
+    System.out.println(myNum);  
+   
+    short myNum1 = 5000;
+    System.out.println(myNum1);  
+    
+     int myNum2 = 100000;
+    System.out.println(myNum2);
+   
+    long myNum3 = 15000000000L;
+    System.out.println(myNum3);
+
+    float myNum4 = 5.75f;
+    System.out.println(myNum4);  
+  }
+}
