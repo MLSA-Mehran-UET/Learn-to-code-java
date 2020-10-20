@@ -56,4 +56,15 @@ System.out.println(min);
 }
 }  
 ```
+# Subtract Operator
+
+The - (subtraction) operator yields the difference of its operands. The result is a pointer of the same type as the pointer operand.
+
+public class MyClass {
+  public static void main(String[] args) {
+    int x = 5;
+    int y = 3;
+    System.out.println(x - y);
+  }
+}
 
