@@ -22,4 +22,3 @@ Additionally, the  '+'  operator can be used between strings to combine them ( *
  [w3schools - Strings](https://www.w3schools.com/java/java_strings.asp) 
  
  [Oracle Java -  Strings](https://docs.oracle.com/javase/tutorial/java/data/strings.html)
-
