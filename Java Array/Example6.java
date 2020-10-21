@@ -8,9 +8,10 @@ public class Main {
 //     Extracting elements using for-each loop
         for (int[][] i : array){
             for (int[] j : i){
-                for (int k : j)
+                for (int k : j){
                     System.out.println("Element in array is : " + k);
             }
+          }
         }
     }
 }
