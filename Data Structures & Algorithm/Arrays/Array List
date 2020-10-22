@@ -1,0 +1,43 @@
+import java.util.*;
+
+public class arraylisttest
+{
+	public static void main (String arg[])
+	{
+		List<String>  names=new ArrayList<String>();
+		names.add("Sameer");
+		names.add("Ahmed");
+		names.add(null);
+		names.add("17");
+		System.out.println("Displaying through FOR EACH LOOP:");
+		for(Object s:names)   //applying for each loop
+		{
+			System.out.println(s);
+		}
+	    System.out.println("Displaying through for loop: ");
+	    names.set(2, "Replaced");
+	    int a = names.size();
+	    for(int i=0;i<a;i++) 
+	    {
+	    	System.out.println(names.get(i));
+	    	//names.remove(3);
+	    }
+	    
+	    int a1= names.size();  //saving the size of arraylist names in integer a1
+	    
+	    System.out.println("Size pf Array List : "+a1);
+	    String b1=names.get(0);
+	    System.out.println("Getting the desired elemnet from ArrayList : "+b1);
+	    boolean a2= names.contains("shek"); //checking availability 
+        System.out.println("Aailable : "+a2);
+        
+        LinkedList list=new LinkedList();
+        list.add("Sameer");
+        list.add("Ahmed");
+        list.add(2);
+        
+        System.out.println(list.));
+        
+	}
+
+}
