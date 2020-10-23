@@ -6,9 +6,9 @@ public class StringRegionMatch {
 	public static void main(String[] args) {
 		System.out.println("home matches 'Hello! Anyone home!?':"+regionMatch("home", "Hello! Anyone home!?")); // true
 		System.out.println("om matches my-home:"+regionMatch("om", "my-home")); // true
-		System.out.println("ht matches height:"+regionMatch("HT", "height")); // true
+		System.out.println("HTe matches height:"+regionMatch("HTe", "height")); // false
 	}
-	
+
 	public static boolean regionMatch(String match, String target) {
 		String matchCopy = match.toLowerCase();
 		String targetCopy = target.toLowerCase();
@@ -20,15 +20,18 @@ public class StringRegionMatch {
 		String temp = "";
 		for(int m=0; m<targetCopy.length(); m++) {
 			for(int n=0; n<matchCopy.length(); n++) {
-				if(targetCopy.charAt(m+n)!=matchCopy.charAt(n)) {
-					break;
-				}
-				else {
-					temp += targetCopy.charAt(m+n);
-				}
-				
-				if(temp.equals(matchCopy)) {
-					return true;
+				int k = m+n;
+				if(k<targetCopy.length()) { // This k is for preventing OutOfBoundsException
+					if(targetCopy.charAt(k)!=matchCopy.charAt(n)) {
+						break;
+					}
+					else {
+						temp += targetCopy.charAt(k);
+					}
+
+					if(temp.equals(matchCopy)) {
+						return true;
+					}
 				}
 			}
 			temp = ""; //For removing previous partially matched string characters, as in case of height; first h is matched but i isn't with e.
