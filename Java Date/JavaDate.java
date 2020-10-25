@@ -8,15 +8,15 @@ public class JavaDate {
 		
 		//You can retrieve values using get() method with a Calendar-field as argument
 		System.out.println	(now.get(Calendar.YEAR)+"-"+
-							 now.get(Calendar.MONTH)+"-"+
-							 now.get(Calendar.DAY_OF_MONTH)); //For me it printed 2020-9-25, because JAN is counted 0 and DEC is 11
+					 now.get(Calendar.MONTH)+"-"+
+					 now.get(Calendar.DAY_OF_MONTH)); //For me it printed 2020-9-25, because JAN is counted 0 and DEC is 11
 		
 		//Alternatively, you can create a GregorianCalendar object using one of the overloaded
 		//constructors—for example: GregorianCalendar(year, month, dayofMonth)
 		GregorianCalendar myGraduationDate = new GregorianCalendar(2023, 2, 1);
 		System.out.println	(myGraduationDate.get(Calendar.YEAR)+"-"+
-				 			 myGraduationDate.get(Calendar.MONTH)+"-"+
-				 			 myGraduationDate.get(Calendar.DAY_OF_MONTH)); //prints 2023-2-1
+				 	 myGraduationDate.get(Calendar.MONTH)+"-"+
+				 	 myGraduationDate.get(Calendar.DAY_OF_MONTH)); //prints 2023-2-1
 		
 		int dayOfMyGraduation = myGraduationDate.get(Calendar.DAY_OF_WEEK); //get() always returns an int value
 		System.out.println("I graduated on "+dayOfMyGraduation+"th day of week."); //Where 1 for Mon and 7 for Sun
