@@ -1,7 +1,10 @@
 import java.util.*;
 
 public class JavaDate {
-
+	//There are different ways to handle date in java
+	//Some of them are Date class, Calendar class, and GregorianCalendar class
+	//Date class is deprecated, so in this program we are using GregorianCalendar class
+	//GregorianCalendar is more specific version of Calendar class
 	public static void main(String[] args) {
 		//Default constructor assigns current date and time
 		GregorianCalendar now = new GregorianCalendar();
