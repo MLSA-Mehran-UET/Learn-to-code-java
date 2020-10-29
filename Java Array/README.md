@@ -21,3 +21,22 @@ Similarly, to create an array of integers, you could specify:
 [w3schools - arrays](https://www.w3schools.com/java/java_arrays.asp)
 
 [Oracle - Java arrays](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html)
+
+# ArrayList 
+
+In addition to the arrays, Java provides an ArrayList class that can be used to create
+containers that store lists of objects. The ArrayList class provides some advantages over
+the Arrays class. Specifically, an ArrayList is **dynamically resizable** , meaning that its size
+can change during program execution. This means that:
+
+* You can add an item at any point in an ArrayList container, and the array size expands
+automatically to accommodate the new item.
+
+* You can remove an item at any point in an ArrayList container, and the array size
+contracts automatically.
+
+To use the ArrayList class, you must use one of the following import statements:
+
+`import java.util.ArrayList;`
+
+`import java.util.*;`
