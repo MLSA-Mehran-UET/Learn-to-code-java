@@ -1,4 +1,3 @@
-// Java program to demonstrate working of Arrays.
 // binarySearch() in a sorted array.
 import java.util.Arrays;
   
