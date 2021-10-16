@@ -67,6 +67,5 @@ public class ShapeAbstraction {
       System.out.println("Shape name is " + circle.getName()); 
       System.out.println("Shape area is " + circle.getArea());
    }
-}class ShapeAbstraction {
-    
 }
+
