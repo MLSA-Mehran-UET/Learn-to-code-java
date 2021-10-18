@@ -30,10 +30,10 @@ class Rectangle extends Shape {
    int length = 0;
    int width = 0;
 
-   Rectangle(String shapeName, int l, int w) {
+   Rectangle(String shapeName, int length, int width) {
       super(shapeName);
-      length = l;
-      width = w;
+      this.length = length;
+      this.width = width;
    }
 
    // concrete implementation of getting Rectangle's area
@@ -46,12 +46,12 @@ class Circle extends Shape {
    // Additional attributes of a Circle
    int radius = 0;
 
-   Circle(String shapeName, int r) {
+   Circle(String shapeName, int radius) {
       super(shapeName);
-      radius = r;
+      this.radius = radius;
    }
 
-   // concrete implementation of getting Circle's area
+   // concrete implementation of getting Circle's area. pi = 3.14
    int getArea() {
       return (int) (3.14*radius*radius);
    }
@@ -59,13 +59,17 @@ class Circle extends Shape {
 
 public class ShapeAbstraction {
    public static void main(String args[]) {
-      Rectangle rectangle = new Rectangle("Rectangle", 1, 2); 
-      System.out.println("Shape name is " + rectangle.getName()); 
-      System.out.println("Shape area is " + rectangle.getArea());
 
-      Circle circle = new Circle( "Circle", 2 ); 
-      System.out.println("Shape name is " + circle.getName()); 
-      System.out.println("Shape area is " + circle.getArea());
+      // Create an instance of Rectangle class with name: RectangleObject, length: 1 and width: 2
+      Rectangle rectangle = new Rectangle("RectangleObject", 1, 2); 
+      System.out.println("Shape name is " + rectangle.getName()); // Shape name is RectangleObject
+      System.out.println("Shape area is " + rectangle.getArea()); // Shape area is 2
+
+       // Create an instance of Circle class with name: CircleObject, radius: 2
+      Circle circle = new Circle( "CircleObject", 2 ); 
+      System.out.println("Shape name is " + circle.getName()); // Shape name is CircleObject
+      System.out.println("Shape area is " + circle.getArea()); // Shape area is 12
+      
    }
 }
 
