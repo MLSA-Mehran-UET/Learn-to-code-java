@@ -29,3 +29,31 @@ public class WrapperClass {
     }
     
 }
+class Wrapperclass
+{
+	public static void main(String args[])
+	{
+		// static function present in each wraper class
+	   String a="123";
+	   Integer i=Integer.parseInt(a);     //creating a wrapper class object
+	                                      //this will convert the string into the corresponding type
+
+	   if(a.equals("123"))
+	   {
+	       System.out.println("Equals");
+	   }
+	   else
+	   {
+	      System.out.println("Not equals");
+	   }
+
+	   if(i==(123))
+	   {
+	   	  System.out.println("Print");
+	   }
+	   else
+	   {
+	   	  System.out.println("Not Print");
+	   }
+	}
+}

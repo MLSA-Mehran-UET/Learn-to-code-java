@@ -1,5 +1,5 @@
 # Learn-to-Code-Java
-It an intiiative taken by MLSA Student Club MUET Jamshoro for student who are absolute begineers in java and want to learn it. This repository will contain all the possible resource in terms of code as well as illusatrations for the code so that any new comer can grasp the topic.
+It is an intiiative undertaken by MLSA Student Club MUET Jamshoro for students who are absolute begineers in java and want to learn it. This repository will contain all the possible resource in terms of code as well as illusatrations for the code so that any new comer can grasp the topic.
 # How to contribute
 1. You can contribute in terms of Code
 2. You can contribute in terms of improving Documentation
@@ -19,32 +19,34 @@ e.g. git clone https://github.com/yourgithubusername/first_contribution.git
 ### step 4 Create a branch
 On your local machine go the project folder that you cloned and use following git command inside that folder
 
-create a new branch using below command
+create a new branch using below command.
 
-git checkout -b
+> git checkout -b \<branch-name\>
 
-e.g. git checkout -b <branch-name>
+e.g. `git checkout -b mybranch`
 
 ### step 4 Lets make some contributions
 Make changes to files on your local machine work on the issue you're assigned. 
 
 ### step 5 Add Changes and Commit Changes
-Now we have to add changes that we made to the branch so for that we will run following command
+Now we have to add changes that we made to the branch so for that we will run following command.
 
-git add .
+> git add .
 
-Now we have to commit changes, commit message should always be clear, to commit use command below
+Now we have to commit changes, commit message should always be clear, to commit use command below.
 
-git commit -m "resolved the <issue>"
+> git commit -m "resolved the \<issue\>"
 
 ### step 6 Push changes to GitHub
-Now we have to push the changes that we made to remote repository on specified branch to do so use command below
+Now we have to push the changes that we made to remote repository on specified branch to do so use command below.
 
-git push origin <branch name>
+> git push origin \<branch-name\>
 
 name of branch is same as you created in step 3
 
-### step 7 Submit your changes for review
-Once you have pushed your code to GitHub, now it's time to create pull request, you will go to the repository click on compare and pull request and submit the pull request.
+e.g `git push origin mybranch`
 
-Soon, we will be merging all your pull requests to the main branch of project and you will also get notification once your pull request is merged with existing code base. After that you will be able to see your details in contributor section on the page below
+### step 7 Submit your changes for review
+Once you have pushed your code to GitHub, it's now time to create pull request, you will go to the repository click on compare and pull request and submit the pull request.
+
+Soon, we will be merging all your pull requests to the main branch of project and you will also get notification once your pull request is merged with existing code base. After that you will be able to see your details in contributor section on the page below.
