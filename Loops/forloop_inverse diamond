@@ -1,0 +1,15 @@
+public class NewClass { 
+    public static void main(String[] args) {
+       for(int i=7;i>0;i--)
+        {
+            for(int n=8-i;n>0;n--){
+                System.out.print(" "); // space before writing on line 
+         }
+            for(int k=0;k<i;k++){
+                System.out.print("* ");   //printing stars
+            }
+            // for creating line
+            System.out.println("");
+        }
+    
+}}
